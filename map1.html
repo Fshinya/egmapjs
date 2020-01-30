@@ -19,6 +19,8 @@ window.onload = function() {
 	map.panTo([ 34.981909,135.963122 ]) // BKC
 	
 	map.addIcon(34.981909, 135.963122, "BKC", "icon/megane.png", 64)
+	
+	map.on("click", (e) => alert(e.latlng))
 }
 
 </script>
